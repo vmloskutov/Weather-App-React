@@ -33,13 +33,7 @@ class App extends React.Component {
       date.setTime(sunrise * 1000);
       let sunrise_date = date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
       date.setTime(sunset * 1000);
-
-      console.log(date);
-
       let sunset_date = date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
-
-
-
 
       this.setState({
         temp: data.main.temp,
@@ -48,7 +42,16 @@ class App extends React.Component {
         pressure: data.main.pressure,
         sunrise: sunrise_date,
         sunset: sunset_date,
-        error: ""
+        error: undefined
+      });
+    } else {
+      this.setState({
+        temp: undefined,
+        city: undefined,
+        country: undefined,
+        sunrise: undefined,
+        sunset: undefined,
+        error: "Введите название города"
       });
     }
   }
