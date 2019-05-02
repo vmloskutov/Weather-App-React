@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/repository-name/static/css/main.19e22ca3.chunk.css",
-    "main.js": "/repository-name/static/js/main.ae689a51.chunk.js",
-    "main.js.map": "/repository-name/static/js/main.ae689a51.chunk.js.map",
-    "runtime~main.js": "/repository-name/static/js/runtime~main.f7634681.js",
-    "runtime~main.js.map": "/repository-name/static/js/runtime~main.f7634681.js.map",
-    "static/css/2.266e55a5.chunk.css": "/repository-name/static/css/2.266e55a5.chunk.css",
-    "static/js/2.e597a5a4.chunk.js": "/repository-name/static/js/2.e597a5a4.chunk.js",
-    "static/js/2.e597a5a4.chunk.js.map": "/repository-name/static/js/2.e597a5a4.chunk.js.map",
-    "index.html": "/repository-name/index.html",
-    "precache-manifest.e3e903fdfa1ed6061150a6f694ca94d8.js": "/repository-name/precache-manifest.e3e903fdfa1ed6061150a6f694ca94d8.js",
-    "service-worker.js": "/repository-name/service-worker.js",
-    "static/css/2.266e55a5.chunk.css.map": "/repository-name/static/css/2.266e55a5.chunk.css.map",
-    "static/css/main.19e22ca3.chunk.css.map": "/repository-name/static/css/main.19e22ca3.chunk.css.map",
-    "static/media/App.css": "/repository-name/static/media/background.cc54c19b.jpg"
+    "main.css": "/weatherAppReact/static/css/main.8a87e215.chunk.css",
+    "main.js": "/weatherAppReact/static/js/main.495589d2.chunk.js",
+    "main.js.map": "/weatherAppReact/static/js/main.495589d2.chunk.js.map",
+    "runtime~main.js": "/weatherAppReact/static/js/runtime~main.4e3e947c.js",
+    "runtime~main.js.map": "/weatherAppReact/static/js/runtime~main.4e3e947c.js.map",
+    "static/css/2.266e55a5.chunk.css": "/weatherAppReact/static/css/2.266e55a5.chunk.css",
+    "static/js/2.e597a5a4.chunk.js": "/weatherAppReact/static/js/2.e597a5a4.chunk.js",
+    "static/js/2.e597a5a4.chunk.js.map": "/weatherAppReact/static/js/2.e597a5a4.chunk.js.map",
+    "index.html": "/weatherAppReact/index.html",
+    "precache-manifest.d12f7735e7a9c5c31cad43df6ae9095e.js": "/weatherAppReact/precache-manifest.d12f7735e7a9c5c31cad43df6ae9095e.js",
+    "service-worker.js": "/weatherAppReact/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/weatherAppReact/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.8a87e215.chunk.css.map": "/weatherAppReact/static/css/main.8a87e215.chunk.css.map",
+    "static/media/App.css": "/weatherAppReact/static/media/background.cc54c19b.jpg"
   }
 }
