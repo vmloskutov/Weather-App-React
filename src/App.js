@@ -35,8 +35,11 @@ class App extends React.Component {
       date.setTime(sunset * 1000);
       let sunset_date = date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
 
+      let temp = data.main.temp - 273.15;
+      temp = Math.round(temp);
+
       this.setState({
-        temp: data.main.temp,
+        temp: temp,
         city: data.name,
         country: data.sys.country,
         pressure: data.main.pressure,
@@ -58,21 +61,32 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
-        <Info />
-        <Form weatherMethod = {this.gettingWeather} />
-        <Weather
-          temp = {this.state.temp}
-          city = {this.state.city}
-          country = {this.state.country}
-          pressure = {this.state.pressure}
-          sunrise = {this.state.sunrise}
-          sunset = {this.state.sunset}
-          error = {this.state.error}
-        />
+      <div className="wrapper">
+        <div className="main">
+          <div className="container">
+            <div className="row">
+              <div className="col-sm-5 info">
+                <Info />
+              </div>
+              <div className="col-sm-7 form">
+                <Form weatherMethod={this.gettingWeather} />
+                <Weather
+                  temp={this.state.temp}
+                  city={this.state.city}
+                  country={this.state.country}
+                  pressure={this.state.pressure}
+                  sunrise = {this.state.sunrise}
+                  sunset={this.state.sunset}
+                  error={this.state.error}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
 }
+
 
 export default App;
